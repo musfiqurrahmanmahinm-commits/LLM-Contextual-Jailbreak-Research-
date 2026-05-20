@@ -34,3 +34,6 @@ To demonstrate the direct correlation between the submission of this research an
  May 12, 2026 (#Comment 24): To maintain the highest standard of ethical research, the researcher explicitly confirmed full compliance with Coordinated Vulnerability Disclosure (CVD) principles, locking down the "Evidence Vault" and withholding all raw data from any external third parties, forcing a final, silent server-side patch that completely neutralized the reported exploit path.
 6. Conclusion
 Securing generative AI requires moving past static input-filtering to understand how conversational contexts alter safety prioritization. This research by the Black Shadow Team highlights that even the most heavily funded AI systems remain vulnerable to simple, logical state-transitions if their core reasoning mechanisms are improperly decoupled from data vaults.
+
+.......................Disclaimer..................
+This research is intended solely for educational purposes and to improve AI safety. All findings were reported via Google’s VRP in good faith according to Coordinated Vulnerability Disclosure (CVD) guidelines. No private user data was exposed or stored.
