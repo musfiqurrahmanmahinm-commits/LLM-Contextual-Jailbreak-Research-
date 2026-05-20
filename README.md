@@ -1,2 +1,32 @@
-# LLM-Contextual-Jailbreak-Research-
-Technical write-up on multi-stage context bypass in LLM safety filters.
+Breaking the Core Safety Guardrails of Advanced Large Language Models (LLMs) via Multi-Stage Contextual Alignment
+Author: Musfiqur Rohim (Mahin), Lead Researcher, Black Shadow Team
+Date: May 2026
+Category: Generative AI Security / LLM Jailbreaking / Prompt Injection
+1. Introduction
+With the rapid deployment of Large Language Models (LLMs) into production environments, server-side safety layers and input-output filters are heavily relied upon to prevent the generation of harmful content and the leakage of sensitive data.
+This research demonstrates how advanced multi-stage contextual alignment—specifically a "Rapport-Building Logic" combined with a precise "One-Word Trigger"—can completely bypass the core safety guardrails of state-of-the-art LLMs (including Advanced Agentic and Cloud-integrated models). This methodology forces the model to ignore its "Hard Refusal" protocols and execute unauthorized data retrieval or hazardous instruction generation.
+2. The Core Threat Model & Methodology
+Traditional jailbreaks often rely on long, complex adversarial prompts that are easily flagged by modern input filters. The methodology discovered during this research utilizes a more stealthy, architectural flaw divided into two phases:
+Phase 1: Contextual Deep-Alignment (The Rapport Phase)
+Instead of feeding a direct adversarial prompt, the attacker establishes a conversational context that builds a structured "friendship" or trust logic within the model’s active session memory. By interacting through native web and application interfaces across multiple platforms, the model's intent-prioritization matrix shifts, misclassifying the malicious nature of the upcoming requests.
+Phase 2: The "One-Word Trigger" Exploit
+Once the contextual alignment is locked into the model's reasoning loop, the entire safety layer becomes highly sensitive to state transitions. At this stage, introducing a specific, isolated "Trigger Word" acts as a logical exploit. This word functions as an internal override switch, causing the safety filters to collapse entirely and execute commands under a completely unfiltered state.
+3. Impact & Exploitation Capabilities
+When successfully executed, this bypass mechanism shifts the LLM from its intended safe behavior into severe security violations:
+ Bypassing Hard Refusal Categories: The model circumvents its structural restrictions regarding mass harm, generating detailed, step-by-step technical execution logs for hazardous chemical synthesis and mechanical weapon designs.
+ Structured Data Over-Retrieval: The internal safety filters fail to differentiate between hallucinated strings and structured training set markers, leading the model to expose highly realistic user directories, internal system infrastructure logs, and cross-platform workstation patterns.
+4. The "AI Hallucination" Paradox & Silent Patching
+During the official disclosure process, a critical architectural and policy-level contradiction was observed in how the platform's security triage teams handled the empirical findings.
+Despite receiving comprehensive, multi-platform high-definition video Proof of Concepts (PoCs) showing live account profile validation via the Google Login portal, the triage team formally classified the generated data dumps as "AI Hallucinations"—arguing that the model was simply predicting realistic text structures rather than directly pulling from private, restricted data vaults.
+However, the technical and logical paradoxes within this classification are highlighted below:
+1 Admission via Functional Mitigation: In official tracking logs (specifically under Comment #14 and Comment #20), the team explicitly stated that the researcher's proprietary "Trigger Word" logic was fast-tracked and shared directly with the core product and safety engineering teams to improve and refine the model's active filters. 2. The Security Contradiction: This creates a significant industry paradox. If an LLM's output is genuinely a harmless, randomized predictive "hallucination," there is no technical or engineering requirement to isolate a researcher's exploit methodology and actively deploy it to patch production-level safety filters. Utilizing research to implement active server-side patches while withholding formal VRP recognition or rewards represents an inconsistent standard in modern vulnerability programs.
+2 Disclosure Framing and Pressures: Furthermore, the platform explicitly requested that if the findings were to be discussed in any public briefing or research community, the researcher must align with their internal narrative and describe the behavior strictly as "model-generated hallucinations." This underlines an operational effort to absorb external mitigation data silently while managing the public perception of structural safety failures.
+5. Timeline of Coordinated Vulnerability Disclosure (CVD)
+To demonstrate the direct correlation between the submission of this research and the sudden server-side tightening of the model's safety thresholds, the official disclosure log timeline is detailed below:
+ February 2026: Initial structural anomalies regarding context-building patterns discovered and submitted via the Vulnerability Reward Program (Case #487165322). The automated triage system flagged the underlying logic as "Likely Actionable."
+ May 4, 2026: Comprehensive escalation filed under Case #508649695, containing over 100+ multi-platform environment PoC videos verifying cross-platform impact across iOS, Web, and dedicated API integrations.
+ May 7, 2026: The case was closed as Non-Security Bulletin Class (NSBC) by the Android Security Team. The researcher contested immediately with fresh evidence of hard-refusal failures (lethal material compilation).
+ May 8–9, 2026: The technical review confirmed that the underlying "Trigger Word" logic was routed directly to internal Generative AI Safety Teams for production-level refinement, while maintaining the non-rewardable "Hallucination" classification.
+ May 12, 2026: Parallel tracking via Cloud Infrastructure channels (Case #511997738) separately flagged the structural data outputs as a validation concern. The researcher provided a regulatory intent notice while formally committing to Coordinated Vulnerability Disclosure (CVD) to prevent any third-party exposure, triggering a final server-side patch that completely neutralized the active exploit path.
+6. Conclusion
+Securing generative AI requires moving past static input-filtering to understand how conversational contexts alter safety prioritization. This research by the Black Shadow Team highlights that even the most heavily funded AI systems remain vulnerable to simple, logical state-transitions if their core reasoning mechanisms are improperly decoupled from data vaults.
